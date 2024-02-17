@@ -1,24 +1,24 @@
-.container {
+body {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-}
-
-.grid-row .row {
-    background: white;
-    border: black solid 1px;
-    flex-direction: row;
-    flex: 1 0 1;
-    height: 20px;
-    width: 20px;
-}
-
-.grid-column .column {
-    background: white;
-    border: black solid 1px;
     flex-direction: column;
-    flex: 1 0 1;
-    height: 20px;
-    width: 20px;
+}
+
+div .buttons {
+    display: flex;
+}
+
+.container {
+    min-height: 750px;
+    min-width: 750px;
+    background: rgb(247, 79, 79);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row {
+    flex: 1 0 43px;
+    background: rgb(195, 195, 195);
+    border: black solid 1px;
 }
