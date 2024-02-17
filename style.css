@@ -12,6 +12,8 @@ div .buttons {
 .container {
     min-height: 600px;
     min-width: 600px;
+    max-height: 600px;
+    max-width: 600px;
     background: rgb(247, 79, 79);
     padding: 30px 30px 75px 30px;;
     display: flex;
@@ -22,6 +24,24 @@ div .buttons {
 
 .cell {
     flex: 1 0 35px;
+    background: rgb(241, 232, 217);
+    border: black solid .5px;
+}
+
+.small-cell {
+    flex: 1 0 54px;
+    background: rgb(241, 232, 217);
+    border: black solid .5px;
+}
+
+.medium-cell {
+    flex: 1 0 17.2px;
+    background: rgb(241, 232, 217);
+    border: black solid .5px;
+}
+
+.large-cell {
+    flex: 1 0 8.3px;
     background: rgb(241, 232, 217);
     border: black solid .5px;
 }
