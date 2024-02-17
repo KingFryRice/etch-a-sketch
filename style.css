@@ -3,10 +3,33 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background: rgb(157, 196, 255)
 }
 
-div .buttons {
+.buttons {
     display: flex;
+    background-color:rgb(247, 79, 79);
+    padding: 25px 164.5px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;;
+}
+
+div button {
+    background:rgb(247, 79, 79);
+    border: rgb(236, 236, 95) solid 1px;
+    border-radius: 8px;
+    color: rgb(236, 236, 95);
+    padding: 5px 30px;
+    margin-right: 10px;
+}
+
+header h1 {
+    background:rgb(247, 79, 79);
+    padding: 10px 233px;
+    margin-bottom: 0;
+    color:rgb(236, 236, 95);
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;;
 }
 
 .container {
@@ -15,11 +38,9 @@ div .buttons {
     max-height: 600px;
     max-width: 600px;
     background: rgb(247, 79, 79);
-    padding: 30px 30px 75px 30px;;
+    padding: 0px 30px 0px 30px;;
     display: flex;
     flex-wrap: wrap;
-    margin: 10px;
-    border-radius: 12px;
 }
 
 .cell {
@@ -35,13 +56,13 @@ div .buttons {
 }
 
 .medium-cell {
-    flex: 1 0 17.2px;
+    flex: 1 0 35px;
     background: rgb(241, 232, 217);
     border: black solid .5px;
 }
 
 .large-cell {
-    flex: 1 0 8.3px;
+    flex: 1 0 17.2px;
     background: rgb(241, 232, 217);
     border: black solid .5px;
 }
