@@ -13,21 +13,21 @@ div .buttons {
     min-height: 600px;
     min-width: 600px;
     background: rgb(247, 79, 79);
-    padding: 50px 50px 75px 50px;;
+    padding: 30px 30px 75px 30px;;
     display: flex;
     flex-wrap: wrap;
     margin: 10px;
     border-radius: 12px;
 }
 
-.row {
+.cell {
     flex: 1 0 35px;
     background: rgb(241, 232, 217);
-    border: rgb(32, 31, 31) solid .5px;
+    border: black solid .5px;
 }
 
-.newRow {
-    flex: 1 0 35px;
-    background: rgb(241, 232, 217);
+.new-cell {
+    flex: 1;
+    background: rgb(241,232,217);
     border: black solid .5px;
 }
