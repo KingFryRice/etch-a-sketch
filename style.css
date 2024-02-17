@@ -25,9 +25,3 @@ div .buttons {
     background: rgb(241, 232, 217);
     border: black solid .5px;
 }
-
-.new-cell {
-    flex: 1;
-    background: rgb(241,232,217);
-    border: black solid .5px;
-}

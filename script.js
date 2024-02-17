@@ -21,14 +21,10 @@ function updateGrid () {
     buttons.forEach(button => {
         button.addEventListener("click", () => {
             let newGridSize = button.className;
-            for (let i = 0; i < (newGridSize * newGridSize); i++) {
-                const newCell = document.createElement("div");
-                newCell.className = "new-cell";
-                grid.replaceChild(cell, newCell);
-                newCell.addEventListener ("mouseover", () => {
-                    newCell.style = "background: rgb(32, 31, 31); transition: .1s;"; 
-                });
-            };
+            console.log(newGridSize);
+            do {
+                grid.removeChild(grid.lastChild);
+            } while (grid.childElementCount > 0);
         });
     });
 };
