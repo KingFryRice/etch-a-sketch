@@ -50,3 +50,6 @@ function updateGrid () {
         });
     });
 };
+
+const rainbowOption = ["red", "orange", "yellow", "green", "blue", "purple"]
+const randomColor = rainbowOption[Math.floor(Math.random() * rainbowOption.length)];

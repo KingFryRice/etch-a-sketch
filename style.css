@@ -17,7 +17,7 @@ body {
 div button {
     background:rgb(247, 79, 79);
     border: rgb(236, 236, 95) solid 1px;
-    border-radius: 8px;
+    border-radius: 6px;
     color: rgb(236, 236, 95);
     padding: 5px 30px;
     margin-right: 10px;
@@ -27,6 +27,7 @@ header h1 {
     background:rgb(247, 79, 79);
     padding: 10px 233px;
     margin-bottom: 0;
+    margin-top: 2.5px;
     color:rgb(236, 236, 95);
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;;
@@ -43,7 +44,8 @@ header h1 {
     flex-wrap: wrap;
 }
 
-.cell {
+.cell,
+.medium-cell {
     flex: 1 0 35px;
     background: rgb(241, 232, 217);
     border: black solid .5px;
@@ -51,12 +53,6 @@ header h1 {
 
 .small-cell {
     flex: 1 0 54px;
-    background: rgb(241, 232, 217);
-    border: black solid .5px;
-}
-
-.medium-cell {
-    flex: 1 0 35px;
     background: rgb(241, 232, 217);
     border: black solid .5px;
 }
