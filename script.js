@@ -3,12 +3,15 @@ const buttons = document.querySelectorAll("button")
 
 let gridSize = 16;
 
-createRow(gridSize);
+createGrid(gridSize);
 
-function  createRow(gridSize) {
+function  createGrid(gridSize) {
     for (let i = 0; i < (gridSize * gridSize); i++) {
-        const row = document.createElement("div");
-        row.className = "row";
-        grid.appendChild(row);
-     }
-}
+        const cell = document.createElement("div");
+        cell.className = "row";
+        grid.appendChild(cell);
+        cell.addEventListener ("mouseover", () => {
+            cell.style = "background: black; transition: .1s;";
+        });
+     };
+};
